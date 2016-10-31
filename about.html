@@ -1,0 +1,18 @@
+<h1>Data</h1>
+<p>Used the spotify and google map apis. User enters a musician's name and a GET request is done with jQuery to spotify's endpoint to first obtain the artistId
+   and this is then used to make a second GET request to obtain this artist's top songs. Upon clicking a song, spotify's listed available markets are used against 
+   Google's geocoder service to obtain a latitude and longitude. This is then used to place markers to indicate on a google map, what geolocations this artist is popular in.
+</p>
+
+<h1>Framework</h1>
+<p>Used jQuery, bootstrap, spotify's api, and google's map and geocoder apis.</p>
+
+<h1>Process</h1>
+<p>The hardest part was figuring how to work with asynchronous calls to apis. I had to understand how promises and deferred objects
+   are used in javascript. This was the most challenging aspect. The other challenges included traversing the JSON received by the
+   apis with jQuery and making sure user input, asynchonorous ajax, and the visual presentation was working. This project took me
+   a week longer than the scheduled due date because the promise frameworks in javascript were hard to figure out.
+</p>
+
+<h1>Info</h1>
+<p><a href="https://github.com/samism/it202project1">Git repo here.</a>, developer contact: sismai4@uic.edu</p>

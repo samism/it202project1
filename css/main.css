@@ -1,0 +1,25 @@
+#artist-name {
+   display: block;
+   line-height: 2em;
+   font-size: 2em;
+   padding: 30px;
+}
+
+.you-choose {
+   color: #00D06C;
+   background-color: black;
+   padding: 5px 10px;
+}
+
+#go-button {
+   display: inline;
+   position: relative;
+   top: -50px;
+   right: -45%;
+   background-color: black;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   font-size: 15px;
+   padding: 10px 20px;
+}
